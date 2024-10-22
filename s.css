@@ -1,0 +1,51 @@
+/*   animations*/
+@keyframes slideInFromLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromRight{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromtop{
+    0%{
+        transform: translatey(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromBottom{
+    0%{
+        transform: translatey(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.row{
+    animation: slideInFromBottom 1s ease-in-out;
+}
+.column{
+    animation:slideInFromRight 1s ease-in-out;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    overflow-x: hidden;
+ }
+
